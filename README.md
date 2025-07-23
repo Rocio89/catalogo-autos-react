@@ -3,8 +3,8 @@
 ## Integrantes:
 
 - Rocio Pastor (Catálogo, componente AutoCard y vista final)
-- Juan Pérez (Búsqueda y filtros dinámicos)
-- María Gómez (Sorteo aleatorio y presentación visual)
+- Lucas Santacruz (Búsqueda y filtros dinámicos)
+- Joel Noguera (Sorteo aleatorio y presentación visual)
 
 ## Instrucciones de ejecución:
 
