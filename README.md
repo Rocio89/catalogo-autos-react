@@ -1,12 +1,16 @@
-# React + Vite
+# Proyecto: Catálogo de Autos en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Integrantes:
 
-Currently, two official plugins are available:
+- Rocio Pastor (Catálogo, componente AutoCard y vista final)
+- Juan Pérez (Búsqueda y filtros dinámicos)
+- María Gómez (Sorteo aleatorio y presentación visual)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instrucciones de ejecución:
 
-## Expanding the ESLint configuration
+1. npm install
+2. npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Descripción:
+
+Este proyecto muestra un catálogo visual de autos, permite buscar por marca o modelo, aplicar filtros por tipo, y realizar un sorteo aleatorio de un auto. Está desarrollado con React + Vite y dividido entre tres integrantes con componentes separados y estado compartido.
