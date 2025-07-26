@@ -38,9 +38,7 @@ function Filtro({ onBuscar, onFiltrar }) {
           <option value="SUV">SUV</option>
           <option value="Pickup">Pickup</option>
           <option value="Sedán">Sedán</option>
-          <option value="Eléctrico">Eléctrico</option>
-          <option value="Automática">Automática</option>
-          <option value="Automático">Automático</option>
+          <option value="Auto">Auto</option>
         </select>
       </div>
     </div>
