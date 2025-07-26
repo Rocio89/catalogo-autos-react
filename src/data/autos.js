@@ -6,8 +6,7 @@ export const autos = [
     año: 2021,
     tipo: "Pickup",
     precio: 30000,
-    imagen:
-      "https://carden.com.py/?imagen=true&src=storage/vehicles/images/12761_63e14cde755ad.jpg",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 2,
@@ -16,8 +15,7 @@ export const autos = [
     año: 2022,
     tipo: "Sedán",
     precio: 18000,
-    imagen:
-      "https://www.chevrolet.com.py/content/dam/chevrolet/south-america/paraguay/espanol/index/cars/2020-onix-hatchback/colorizer/ago-2022/colorizer-rojo.jpg?imwidth=1200",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 3,
@@ -26,8 +24,7 @@ export const autos = [
     año: 2020,
     tipo: "SUV",
     precio: 22000,
-    imagen:
-      "https://fotografias.lasexta.com/clipping/cmsimages01/2020/04/13/CA1F258F-9DB3-4324-A2C7-97C3414587F6/98.jpg?crop=1700,956,x0,y5&width=1900&height=1069&optimize=high&format=webply",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 4,
@@ -36,8 +33,7 @@ export const autos = [
     año: 2010,
     tipo: "VAN",
     precio: 6500,
-    imagen:
-      "https://carden.com.py/?imagen=true&src=storage/vehicles/images/17997_65bd41decd52d.jpg",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 5,
@@ -46,8 +42,7 @@ export const autos = [
     año: 2018,
     tipo: "SUV",
     precio: 17400,
-    imagen:
-      "https://i.ytimg.com/vi/0uw5IqtUsBQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBEh4s4pL39-SIPJlfbkpKJ7vdidA",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 6,
@@ -56,8 +51,7 @@ export const autos = [
     año: 2024,
     tipo: "SUV",
     precio: 11700,
-    imagen:
-      "https://acnews.blob.core.windows.net/imgnews/large/NAZ_f232593cbb024e9491490260111b5f50.webp",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 7,
@@ -66,8 +60,7 @@ export const autos = [
     año: 2012,
     tipo: "Auto",
     precio: 6500,
-    imagen:
-      "https://static.carfromjapan.com/spec_14fbbaf2-0214-454b-ac0b-044c2c766041_640_0",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 8,
@@ -76,8 +69,7 @@ export const autos = [
     año: 2011,
     tipo: "Auto",
     precio: 3200,
-    imagen:
-      "https://cdn.wheel-size.com/thumbs/89/23/8923cdbbd4cf99c8fc95ccfb8a554d2f.jpg",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 9,
@@ -86,8 +78,7 @@ export const autos = [
     año: 2017,
     tipo: "Auto",
     precio: 9500,
-    imagen:
-      "https://cdn1.hendyla.com/archivos/imagenes/2022/09/09/37a6259cc0c1dae299a7866489dff0bdoCBweXj1huqD1662739973631-480_A.jpg",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 10,
@@ -96,8 +87,7 @@ export const autos = [
     año: 2011,
     tipo: "Auto",
     precio: 5600,
-    imagen:
-      "https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/12186/toyotayaris2012deportivo_headergallery.jpg",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 11,
@@ -106,8 +96,7 @@ export const autos = [
     año: 2011,
     tipo: "SUV",
     precio: 22990,
-    imagen:
-      "https://file.kelleybluebookimages.com/kbb/base/house/2011/2011-Toyota-4Runner-FrontSide_TT4RN111_640x480.jpg?downsize=382:*",
+    imagen: "https://via.placeholder.com/150",
   },
   {
     id: 12,
@@ -116,7 +105,6 @@ export const autos = [
     año: 2017,
     tipo: "Auto",
     precio: 11700,
-    imagen:
-      "https://www.iihs.org/cdn-cgi/image/width=636/api/ratings/model-year-images/2660/",
+    imagen: "https://via.placeholder.com/150",
   },
 ];
