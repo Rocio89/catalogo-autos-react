@@ -31,7 +31,7 @@ function App() {
     <div className="app-container">
       {/* Barra superior */}
       <header className="top-bar">
-        <h1 className="logo">Auto Dealer</h1>
+        <h1 className="logo">AutoDealer</h1>
         <div className="top-bar-controls">
           <Filtro onBuscar={setBusqueda} onFiltrar={setFiltro} />
           <button className="sortear-btn" onClick={sortearAuto}>
