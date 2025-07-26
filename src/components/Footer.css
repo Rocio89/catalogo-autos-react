@@ -1,0 +1,30 @@
+.footer {
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 3rem;
+}
+
+.footer-info p {
+  margin: 0.4rem 0;
+  color: #333;
+  font-size: 1rem;
+}
+
+.footer-social {
+  margin-top: 1rem;
+}
+
+.footer-social a {
+  color: black;
+  margin: 0 10px;
+  font-size: 1.4rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+  color: #00c4e1;
+}

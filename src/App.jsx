@@ -1,8 +1,11 @@
+// src/App.jsx
 import { useState } from "react";
 import { autos as autosData } from "./data/autos";
 import AutoCard from "./components/AutoCard";
 import Filtro from "./components/Filtro";
 import Sorteo from "./components/Sorteo";
+import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   const [autos, setAutos] = useState(autosData);
@@ -25,26 +28,33 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Catálogo de Autos</h1>
+    <div className="app-container">
+      {/* Barra superior */}
+      <header className="top-bar">
+        <h1 className="logo">Auto Dealer</h1>
+        <div className="top-bar-controls">
+          <Filtro onBuscar={setBusqueda} onFiltrar={setFiltro} />
+          <button className="sortear-btn" onClick={sortearAuto}>
+            🎲 Sortear Auto
+          </button>
+        </div>
+      </header>
 
-      <Filtro onBuscar={setBusqueda} onFiltrar={setFiltro} />
-      <button onClick={sortearAuto}>🎲 Sortear Auto</button>
+      {/* Auto sorteado en la parte superior */}
+      <div className="sorteo-destacado">
+        <Sorteo auto={autoSorteado} />
+      </div>
 
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "10px",
-          justifyContent: "center",
-        }}
-      >
+      {/* Catálogo visual */}
+      <div className="catalogo">
         {autosFiltrados.map((auto) => (
           <AutoCard key={auto.id} auto={auto} />
         ))}
       </div>
-
-      <Sorteo auto={autoSorteado} />
+      <div className="app-container">
+        {/* tu encabezado y catálogo */}
+        <Footer />
+      </div>
     </div>
   );
 }
