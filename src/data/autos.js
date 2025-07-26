@@ -99,4 +99,24 @@ export const autos = [
     imagen:
       "https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/12186/toyotayaris2012deportivo_headergallery.jpg",
   },
+  {
+    id: 11,
+    marca: "TOYOTA",
+    modelo: "4RUNNER",
+    año: 2011,
+    tipo: "SUV",
+    precio: 22990,
+    imagen:
+      "https://file.kelleybluebookimages.com/kbb/base/house/2011/2011-Toyota-4Runner-FrontSide_TT4RN111_640x480.jpg?downsize=382:*",
+  },
+  {
+    id: 12,
+    marca: "MAZDA",
+    modelo: "MAZDA 3",
+    año: 2017,
+    tipo: "Auto",
+    precio: 11700,
+    imagen:
+      "https://www.iihs.org/cdn-cgi/image/width=636/api/ratings/model-year-images/2660/",
+  },
 ];
