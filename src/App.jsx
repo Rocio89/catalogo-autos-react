@@ -52,7 +52,7 @@ function App() {
         ))}
       </div>
       <div className="app-container">
-        {/* tu encabezado y catálogo */}
+        {/* Nuestro git e integrantes */}
         <Footer />
       </div>
     </div>
